@@ -1,0 +1,14 @@
+#created by- vishal jain
+#date-08/01/2019
+#interpreter-IDLE python 3.7
+#program name- simple intrest
+
+
+
+
+p=int(input("enter the amount"))
+r=int(input("enter the rate"))
+t=int(input("enter the time"))
+si=(p*r*at)/100
+print("THE SIMPLE INTREST IS ",si)
+print("THANK YOU!")
