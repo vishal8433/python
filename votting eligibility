@@ -1,0 +1,11 @@
+#created by- vishal jain
+#date-08/01/2019
+#interpreter-IDLE python 3.7
+#program name- votting eligibility
+
+
+a=int(input("enter your age"))
+if(a>=18):
+        print("you are eligible")
+else:
+        print("you are not eligible")
