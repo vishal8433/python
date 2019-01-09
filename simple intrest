@@ -9,6 +9,6 @@
 p=int(input("enter the amount"))
 r=int(input("enter the rate"))
 t=int(input("enter the time"))
-si=(p*r*at)/100
+si=(p*r*t)/100
 print("THE SIMPLE INTREST IS ",si)
 print("THANK YOU!")
