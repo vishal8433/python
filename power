@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-10/01/2019
+#interpreter-IDLE python 3.7
+#program name- power
+
+
+
+print("welcome in this program!")
+print("------------------------")
+a=int(input("enter the value of a in the form of (a^b)"))
+b=int(input("enter the value of b"))
+c=a**b
+print("result=",c)
