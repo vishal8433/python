@@ -1,0 +1,19 @@
+#created by- vishal jain
+#date-10/01/2019
+#interpreter-IDLE python 3.7
+#program name- ATM
+#condition-greatest among three number  
+
+
+
+print("welcome in this program!")
+print("------------------------")
+a=int(input("enter the value of A"))
+b=int(input("enter the value of B"))
+c=int(input("enter the value of C"))
+if a>b&a>c:
+        print("A is the greater")
+elif b>c:
+        print("B  is the greatest")
+else:
+        print("C is the greatest")
