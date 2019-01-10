@@ -1,0 +1,24 @@
+#created by- vishal jain
+#date-10/01/2019
+#interpreter-IDLE python 3.7
+#program name- program to find the point whether in the circle, outside the circle or on the circle 
+#formula- {(((x-x1)^2+(y-y1)^2)^1/2)=r^2}
+
+
+
+print("WELCOME IN THIS PROGRAM")
+print("------------------------")
+print("enter the value in the form of {(((x-x1)^2+(y-y1)^2)^1/2)=r^2}")
+x=int(input("enter the value of x"))
+x1=int(input("enter the value of x1"))
+y=int(input("enter the value of y"))
+y1=int(input("enter the value of y1"))
+r=int(input("enter the radius of the circle"))
+R=r*r
+d=(((x-x1)**2+(y-y1)**2)**1/2)
+if (d<R):
+    print("point lies inside the circle")
+elif(d==R):
+    print("point lies on the circle")
+elif(d>R):
+    print("point lies outside the circle")
