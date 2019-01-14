@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-14/01/2019
+#interpreter-IDLE python 3.7
+#program name- ATM
+#condition- Program to find the hypotenuse of a right angled triangle, when the base and height are entered 
+#             by the user.
+
+
+
+p=eval(input("enter the hight"))
+b=eval(input("enter the base"))
+h=((p**2)+(b**2)**.5)
+print("hypotenuse=",h)
