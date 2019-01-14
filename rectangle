@@ -1,0 +1,18 @@
+#created by- vishal jain
+#date-14/01/2019
+#interpreter-IDLE python 3.7
+#program name- ATM
+#condition- Program  to  find  the  area  and  perimeter  of  a  rectangle,  when  the  required  input  (Length  and 
+#             Breadth) are entered by the
+#             user.
+
+
+
+
+print("welcome in this program!")
+l=int(input("enter the length"))
+b=int(input("enter the breadth"))
+perimeter=(2*(l+b))
+area=(l*b)
+print("perimeter=",perimeter)
+print("area=",area)
