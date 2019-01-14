@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-14/01/2019
+#interpreter-IDLE python 3.7
+#program name- Program to find the area and circumference of a circle, when the radius is entered by the user. 
+#               However, the user can input radius in integer or float.
+
+
+
+r=eval(input("enter the radius"))
+c=2*3.141*r
+a=3.141*r*r
+print("circumference",c)
+print("area=",a)
