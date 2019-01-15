@@ -1,0 +1,14 @@
+#created by- vishal jain
+#date-15/01/2019
+#interpreter-IDLE python 3.7
+#program name-program that calculate the number of rectengular tilesrequired to cover a rectengular floor if the dimensions 
+#              of the floor and the dimensions of a tile are entered by the user.
+
+l=eval(input("enter the length of floor"))
+b=eval(input("enter the breadth of floor "))
+l1=eval(input("enter the length of tiles"))
+b1=eval(input("enter the breadth of tiles"))
+a=l*b
+a1=l1*b1
+n=a/a1
+print("number of tiles=",n)
