@@ -1,0 +1,14 @@
+#created by- vishal jain
+#date-14/01/2019
+#interpreter-IDLE python 3.7
+#program name- program to find compound intrest compounded annually and the total amount when the principal,rate of intrest 
+#              and time are entered by the user.
+
+
+p=eval(input("enter the principal"))
+r=eval(input("enter the rate"))
+t=eval(input("enter the time"))
+a=p*((1+(r/100))**t)
+ci=a-p
+print("compond intrest=",ci)
+print("total amount=",a)
