@@ -1,0 +1,16 @@
+#created by- vishal jain
+#date-21/01/2019
+#interpreter-IDLE python 3.7
+#program name-armstrong number
+
+num = int(input("Enter a number: "))
+sum = 0
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
