@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-21/01/2019
+#interpreter-IDLE python 3.7
+#program name- Program to find the factorial of an entered number.
+
+
+number = int(input("enter the number"))
+i=1
+f=1
+while(i<=number):
+    f=f*i
+    i+=1
+print("factorial=",f)
