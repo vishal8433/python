@@ -1,0 +1,18 @@
+#created by- vishal jain
+#date-21/01/2019
+#interpreter-IDLE python 3.7
+#program name- A man has certain number of apples.
+#If he picks them in a group of 7, he can pick all of them.
+#If he picks them in a group of 6, 1 apple is left behind.
+#If he picks them in a group of 5, 1 apple is left behind.
+#If he picks them in a group of 4, 1 apple is left behind.If he picks them in a group of 3, 1 apple is left behind.
+#If he picks them in a group of 2, 1 apple is left behind.
+#Write a program that identifies the minimum number of apples he has.
+
+
+i=1
+while True :
+	if(i%7==0 and i%6==1 and i%5==1 and i%4==1 and i%3==1 and i%2==1):
+		break
+	i=i+1
+print(i)
