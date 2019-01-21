@@ -1,0 +1,28 @@
+#created by- vishal jain
+#date-21/01/2019
+#interpreter-IDLE python 3.7
+#program name- Big Bazaar specifies its customers into three categories as Bronze, Silver and Gold. If the
+#shopping amount is greater than 25000, the category is GOLD. If the shopping amount is
+#between 10000 and 25000, the category is SILVER, otherwise the category is BRONZE. The
+#discount offered for GOLD customers is 20% of the shopping amount, for SILVER customers is
+#10% of the shopping amount and 5% otherwise. Design a program in python that asks the user
+#to input the total shopping amount, outputs the category and amount to be paid.
+
+a=eval(input ("enter the amount"))
+if(a>25000):
+	print("your categorie is GOLD")
+	d=((a/100)*20)
+	b=a-d
+	print("BILL=",b)
+elif(a>10000 and a<=25000):
+	print("your categorie is SILVER")
+	d=((a/100)*10)
+	b=a-d
+	print("BILL=",b)
+elif(a<=10000):
+	print("your categorie is BRONZE")
+	d=((a/100)*5)
+	b=a-d
+	print("BILL=",b)
+else:
+	print("wrong input")
