@@ -1,0 +1,14 @@
+#created by- vishal jain
+#date-14/01/2019
+#interpreter-IDLE python 3.7
+#program name- program two input two numbers and subtract the smaller number from the gretest number.
+
+
+a=eval(input("enter first number"))
+b=eval(input("enter second number"))
+if(a>b):
+	c=a-b
+	print(c)
+else:
+	d=b-a
+	print(d)
