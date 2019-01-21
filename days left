@@ -1,0 +1,47 @@
+#created by- vishal jain
+#date-21/01/2019
+#interpreter-IDLE python 3.7
+#program name- Design a program in python to display the number of days left in the current year (2019), when
+#today’s date is entered by the user in format of your choice.
+
+
+m=int(input("enter the number of month"))
+d=int(input("enter the date"))
+if(m==1):
+	n=(365-d)
+	print("left days=",n)
+elif(m==2):
+	n=(365-(31+d))
+	print("left days=",n)
+elif(m==3):
+	n=(365-(59+d))
+	print("left days=",n)
+elif(m==4):
+	n=(365-(90+d))
+	print("left days=",n)
+elif(m==5):
+	n=(365-(120+d))
+	print("left days=",n)
+elif(m==6):
+	n=(365-(151+d))
+	print("left days=",n)
+elif(m==7):
+	n=(365-(181+d))
+	print("left days=",n)
+elif(m==8):
+	n=(365-(212+d))
+	print("left days=",n)
+elif(m==9):
+	n=(365-(242+d))
+	print("left days=",n)
+elif(m==10):
+	n=(365-(273+d))
+	print("left days=",n)
+elif(m==11):
+	n=(365-(304+d))
+	print("left days=",n)
+elif(m==12):
+	n=(365-(334+d))
+	print("left days=",n)
+else:
+	print("enter wrong month")
