@@ -1,0 +1,18 @@
+
+#created by- vishal jain
+#date-21/02/2019
+#interpreter-IDLE python 3.7
+#program name-fibonacci by recursion 
+
+def recur_fibo(n):
+   if n <= 1:
+       return n
+   else:
+       return(recur_fibo(n-1) + recur_fibo(n-2))
+nterms = int(input("enter the terms"))
+if nterms <= 0:
+   print("Plese enter a positive integer")
+else:
+   print("Fibonacci sequence:")
+   for i in range(nterms):
+       print(recur_fibo(i))
