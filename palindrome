@@ -1,0 +1,12 @@
+#created by- vishal jain
+#date-18/02/2019
+#interpreter-IDLE python 3.7
+#program name-palindrome in string
+
+
+v=input("enter the string for cheking , it is palindrome or not")
+s=v[ : :-1]
+if (s==v):
+	print("the string is palindrome")
+else:
+	print("the string  is not palindrome")
