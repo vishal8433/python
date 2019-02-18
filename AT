@@ -1,0 +1,11 @@
+str=input("enter the string")
+d=" "
+c=" "
+for i in range(0,len(str)):
+	a=ord(str[i])
+	if(a%2==0):
+		c='#'
+		d=d+c
+	else:
+		d=d+str[i]
+print(d)
