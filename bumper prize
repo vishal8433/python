@@ -1,0 +1,20 @@
+#created by- vishal jain
+#date-27/02/2019
+#interpreter-IDLE python 3.7
+#program name- a lootery contains six digit . the company has announce that a bumper of prize of 1 crore will be given to that candidate 
+#              whose ticket number is such that the sum of first three digit or the sum of last three digits  is equal . find the number of 
+#              candidates getting the bumper prize.
+
+
+sumf=suml=ctr=0
+for a in range(0,10):
+    for b in range(0,10):
+        for c in range(0,10):
+            for d in range(0,10):
+                for e in range(0,10):
+                    for f in range(0,10):
+                        sumf=a+b+c
+                        suml=d+e+f
+                        if suml==sumf:
+                            ctr=ctr+1
+print(ctr)
