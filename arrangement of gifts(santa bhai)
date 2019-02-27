@@ -1,0 +1,18 @@
+#created by- vishal jain
+#date-27/02/2019
+#interpreter-IDLE python 3.7
+#program name-arrangement of gifts
+
+
+
+l1=list()
+l2=list()
+for i in range (0,10):
+    children=input("enter the name of children ")
+    l1.append(children)
+for i in range (0,10):
+    gifts=input("enter the name of gifts")
+    l2.append(gifts)
+print("children  :  gifts")
+for i in range(0,10):
+    print(l1[i] ,":", l2[9-i])
