@@ -3,7 +3,7 @@
 #interpreter-IDLE python 3.7
 #program name-santa clause want to distribute the 10 gifts to 10 children.however the gifts can be takenout from the bag in last in first 
 #              out manner. the children comes in 1st come 1st served form .write a program in python that takes the name of children and 
-#              display hwo got what gifts.
+#              display who got what gifts.
 
 
 
