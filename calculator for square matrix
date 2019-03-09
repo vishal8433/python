@@ -1,0 +1,112 @@
+#created by- vishal jain
+#date-09/03/2019
+#interpreter-IDLE python 3.7
+#program name-calculator for addition,subtraction,multiplication and transpose of square matrix.
+
+
+
+print("welcome in this program!")
+print("calc for square matrix")
+print("press 1 for addition of square matrices")
+print("press 2 for subtraction of sqaure matrices")
+print("press 3 for multipliaction of square matrices")
+print("press 4 for transpose of square matrix")
+choice=int(input("enter your choice"))
+if(choice==1):
+    a=[]
+    ans=[]
+    r=int(input("enter the rows"))
+    c=int(input("enter the coloumn"))
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(int(input("enter value")))
+        a.append(t)
+    b=[]
+    for i in range(0,r):
+        x=[]
+        for j in range(0,c):
+            x.append(int(input("enter the value")))
+        b.append(x)
+    ans=[]
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(0)
+        ans.append(t)
+    for i in range(0,r):
+        for j in range(0,c):
+            ans[i][j]=a[i][j]+b[i][j]
+    print(ans)
+elif(choice==2):
+    a=[]
+    ans=[]
+    r=int(input("enter the rows"))
+    c=int(input("enter the coloumn"))
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(int(input("enter value")))
+        a.append(t)
+    b=[]
+    for i in range(0,r):
+        x=[]
+        for j in range(0,c):
+            x.append(int(input("enter the value")))
+        b.append(x)
+    ans=[]
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(0)
+        ans.append(t)
+    for i in range(0,r):
+        for j in range(0,c):
+            ans[i][j]=a[i][j]-b[i][j]
+    print(ans)    
+elif(choice==3):
+    a=[]
+    ans=[]
+    r=int(input("enter the rows"))
+    c=int(input("enter the coloumn"))
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(int(input("enter value")))
+        a.append(t)
+    b=[]
+    for i in range(0,r):
+        x=[]
+        for j in range(0,c):
+            x.append(int(input("enter the value")))
+        b.append(x)
+    ans=[]
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(0)
+        ans.append(t)
+    for i in range(0,r):
+        for j in range(0,c):
+            for k in range(0,r):
+                ans[i][j]=ans[i][j]+a[i][k]*b[k][j]
+    print(ans)
+elif(choice==4):
+    m1=[]
+    ans=[]
+    r=int(input("enter the rows"))
+    c=int(input("enter the coloumn"))
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(int(input("enter the element of your matrix")))
+        m1.append(t)
+    print("matrix before transpose")
+    print(m1)
+    for i in range(0,r):
+        t=[]
+        for j in range(0,c):
+            t.append(m1[j][i])
+        ans.append(t)
+    print("your matrix after transpose")
+    print(ans)    
