@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-04/04/2019
+#interpreter-IDLE python 3.7
+#program name-find the company name in gmail ID.
+#ex- input-vishaljain@google.com
+#    output-google
+
+e=input("enter your gmail")
+for x in range(len(e)):
+    if ord(e[x])==ord('@'):
+        while(ord (e[x+1])!=ord('.')):
+              print(e[x+1],sep='',end='')
+              x+=1
