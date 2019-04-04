@@ -1,0 +1,18 @@
+#created by- vishal jain
+#date-18/02/2019
+#interpreter-IDLE python 3.7
+#program name-multiply and add the number of the list entered by the user,and return the value in one list.
+
+
+r=int(input("how many number you want entered in the list"))
+a=[]
+for i in range(r):
+    a.append(int(input("enter the numbers")))    
+def fun(list):
+    s=0
+    m=1
+    for i in list:
+        s=s+i
+        m=m*i
+    return[s,m]
+print(fun(a))
