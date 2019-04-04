@@ -1,0 +1,18 @@
+#created by- vishal jain
+#date-04/04/2019
+#interpreter-IDLE python 3.7
+#program name-find the maximum number in a string.
+#Ex-  input-sdfhsjfhsjh12dsd25df15df15d8f154df45f6df415df413df1
+      output-415
+     
+def extractmaximum(ss):
+    num,res=0,0
+    for i in range(len(ss)):
+        if ss[i] >= "0"and ss[i] <= "9":
+            num=num*10+int(int(ss[i])-0)
+        else:
+            res=max(res,num)
+            num=0
+    return max(res, num)
+ss=input("enter the value")
+print(extractmaximum(ss))
