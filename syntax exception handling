@@ -1,0 +1,8 @@
+try:  
+    #block of code   
+  
+except (<Exception 1>,<Exception 2>,<Exception 3>,...<Exception n>)  
+    #block of code   
+  
+else:  
+    #block of code  
