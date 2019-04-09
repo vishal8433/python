@@ -1,0 +1,12 @@
+#created by- vishal jain
+#date-08/04/2019
+#interpreter-IDLE python 3.7
+#program name-exception handling
+
+try :  
+    a = 3
+    if a < 4 :  
+        b = a/(a-3)  
+    print "Value of b = ", b  
+except(ZeroDivisionError, NameError): 
+    print "\nError Occurred and Handled"
