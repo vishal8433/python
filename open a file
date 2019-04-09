@@ -1,0 +1,13 @@
+#created by- vishal jain
+#date-08/04/2019
+#interpreter-IDLE python 3.7
+#program name-open a file by exception handling
+
+try:
+    filename=input("enter the  file name")
+    fileptr = open(filename,"r")  
+except IOError:  
+    print("File not found")  
+else:  
+    print("The file opened successfully")  
+    fileptr.close()  
